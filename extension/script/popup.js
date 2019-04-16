@@ -2,7 +2,7 @@
 $(function() {
   $('#pushButton').click(function(e) {
     e.preventDefault();
-    alert("testing")
+    alert("testing "+ $('#streamIDInput').val())
     window.close();
   });
 });

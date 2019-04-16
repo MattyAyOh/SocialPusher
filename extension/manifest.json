@@ -1,8 +1,4 @@
 {
-  "background": {
-      "persistent": false,
-      "scripts": ["script/background.js"]
-  },
   "name": "SideLine Social Pusher",
   "version": "0.0.0",
   "manifest_version": 2,
@@ -35,6 +31,5 @@
     },
     "default_title": "Push Social Post",
     "default_popup": "popup.html"
-  },
-  "options_page": "options.html"
+  }
 }
