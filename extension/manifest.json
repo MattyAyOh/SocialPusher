@@ -1,6 +1,11 @@
 {
+	"background": {
+		"scripts": ["script/background.js"],
+		"persistent": true
+  },
+  
   "name": "SideLine Social Pusher",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "manifest_version": 2,
   "description": "Push social posts to SideLine",
   "icons": {
@@ -8,8 +13,9 @@
     "48": "logo128.png"
   },
   "permissions": [
-    "*://instagram.com/",
-    "*://twitter.com/"
+    "tabs",
+    "http://*/",
+    "https://*/"
   ],
   "content_scripts": [
     {
